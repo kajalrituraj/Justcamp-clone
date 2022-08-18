@@ -177,9 +177,7 @@
 
     .gap {
       height: 20vh;
-      width: 100%;
       /* background-color: w; */
-      background-color: #fff;
     }
 
     h2 {
@@ -195,24 +193,11 @@
     .by-category {
       padding-left: 5%;
       font-weight: bolder;
-      background-color: #fff;
-      display: flex;
-      /* background-color: blue; */
-      justify-content: space-between;
-      width: 100vw;
-    }
-    .cards {
-      background-color: #fff;
-      width: 100%;
     }
 
     .card {
       padding: 35px 20px 8px 30px;
       /* background-color: red; */
-      
-    }
-    .card:hover{
-      box-shadow: 9px 9px 20px #f5ebeb;
     }
 
     .card-body {
@@ -220,6 +205,7 @@
     }
 
     .color {
+      background-color: red;
       height: 70px;
       width: 70px;
       border-radius: 10px;
@@ -257,18 +243,7 @@
       align-items: center;
       width: 100%;
       display: flex;
-      font-size: 23px;
-      font-weight:bolder;
     }
-    .btnexplore{
-      display: block;
-      padding-right: 6%;
-    
-      /* float:right; */
-      /* justify-content: space-evenly; */
-    }
-   
-    
   </style>
 </head>
 
@@ -388,15 +363,13 @@
       <div class="gap"></div>
       <div class="by-category ">
         <h2 class="font-size-9 font-weight-bold">Explore by category</h2>
-        <div class="btnexplore"><button type="button" class="btn btn-outline-success ">Explore All</button></div>
-
       </div>
 
-      <div class="row row-cols-1 row-cols-md-4 g-4 cards">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card h-100">
             <div class="color color-1">
-              <i class="fa-solid fa-briefcase"style="color:#4743DB"></i>
+              <i class="fa-solid fa-briefcase"></i>
             </div>
             <div class="card-body">
               <h5 class="card-title">Business Development</h5>
@@ -408,7 +381,7 @@
           <div class="card h-100">
             <div class="color color-2">
               <!-- <div class="color2"></div> -->
-              <i class="fa-solid fa-headset"style="color:#65EFE5"></i>
+              <i class="fa-solid fa-headset"></i>
             </div>
             <div class="card-body">
               <h5 class="card-title">Customer Service</h5>
@@ -419,7 +392,7 @@
         <div class="col">
           <div class="card h-100">
             <div class="color color-3">
-              <i class="fa-solid fa-layer-group"style="color:#FA8557"></i>
+              <i class="fa-solid fa-layer-group"></i>
             </div>
             <div class="card-body">
               <h5 class="card-title">Development</h5>
@@ -430,7 +403,7 @@
         <div class="col">
           <div class="card h-100">
             <div class="color color-4">
-                <i class="fa-solid fa-pen-nib"style="color:#F71E3F"></i>
+                <i class="fa-solid fa-pen-nib"></i>
             </div>
             <div class="card-body">
               <h5 class="card-title">Design</h5>
@@ -441,10 +414,10 @@
         <div class="col">
           <div class="card h-100">
             <div class="color color-5">
-              <i class="fa-solid fa-rocket"style="color:#FA5F1C"></i>
+              <i class="fa-solid fa-rocket"></i>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Marketing & Management</h5>
+              <h5 class="card-title">Business Development</h5>
               <p class="card-text">415 Vacancy</p>
             </div>
           </div>
@@ -452,10 +425,10 @@
         <div class="col">
           <div class="card h-100">
             <div class="color color-6">
-              <i class="fa-solid fa-location-arrow"style="color:#FFB300"></i>
+              <i class="fa-solid fa-location-arrow"></i>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Sales & Communication</h5>
+              <h5 class="card-title">Customer Service</h5>
               <p class="card-text">235 Vacancy</p>
             </div>
           </div>
@@ -463,10 +436,10 @@
         <div class="col">
           <div class="card h-100">
             <div class="color color-7">
-              <i class="fa-light fa-sidebar"style="color:#92DEE9"></i>
+              <i class="fa-light fa-sidebar"></i>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Project Management</h5>
+              <h5 class="card-title">Development</h5>
               <p class="card-text">624 Vcancy</p>
             </div>
           </div>
@@ -474,10 +447,10 @@
         <div class="col">
           <div class="card h-100">
             <div class="color color-8">
-              <i class="fa-solid fa-user"style="color:#00B074"></i>
+              <i class="fa-solid fa-user"></i>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Human Resource</h5>
+              <h5 class="card-title">Design</h5>
               <p class="card-text">174 Vcanacy</p>
             </div>
           </div>
