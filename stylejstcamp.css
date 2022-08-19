@@ -24,16 +24,30 @@
     transition: all 0.2s ease-in-out;
 
   }
+   .justcamp-image{
+    display: flex;
+    /* font-family: 'Poppins', sans-serif; */
 
+   }
+   .just{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    color:#04c9d7;
+    letter-spacing: 0.2rem;
+
+   }
+   .CAMP{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 22px;
+   }
   .container-fluid {
     position: fixed;
     padding: 25px 50px;
     top:0;
   }
-  /* .justcamp-image{
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Web", sans-serif;
-    background-color: #fff;
-  } */
+  
 
   .bg {
     height: 100vh;
@@ -172,6 +186,9 @@
     color: white;
     text-align: left;
     margin-bottom: 20px;
+    font-family: Inter,sans-serif;
+    /* font-size: 1.125rem; */
+    font-weight: 400;
   }
 
   .images {
@@ -207,6 +224,9 @@
     justify-content: space-between;
     padding-right: 70px;
     padding-left: 40px;
+  }
+  .exp-by{
+    font-size: 43px;
   }
 
   .cards {
@@ -306,7 +326,7 @@
     margin-right: 0;
     background-color: white;
     border-radius: 0.625rem;
-    padding: 12px 9px 8px 12px;
+    padding: 70px 45px 30px 25px;
     bottom: 0;
     box-shadow: 17px 26px 99px hsl(0deg 0% 45% / 16%);
     padding-left: 1.5625rem;
@@ -315,20 +335,108 @@
     bottom: 10px;
     right: 10px;
   }
+  .white-box-text {
+    width: 216px;
+    height: 40px;
+    margin: 0px 0px 20px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Inter,sans-serif;
+  }
 
+  .white-images{
+    display: flex;
+    width: 211px;
+    height:50px;
+  }
+  .white-images p{
+    width: 80px;
+    font-size: 1rem;
+    line-height: 1.625;
+    letter-spacing: -.08px;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    color:#6B6E6F;
+  }
+
+   .white-img{
+    width: 130px;
+    height: 34px;
+    padding-left: 0;
+    list-style: none;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    margin-top:8%;
+  } 
+  .white-img-one{
+    margin-left: 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    z-index: 6;
+    height: 34px;
+    width: 34px;
+    display: inline-block;
+    
+  }
+  .white-img-two{
+    left: -20px;
+    z-index: 5;
+    transform: scale(1);
+    position: relative;
+    margin-left: 5px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }
+  .white-img-three{
+    left: -40px;   
+     z-index: 4;
+     transform: scale(1);
+     position: relative;
+     margin-left: 5px;
+     display: list-item;
+    text-align: -webkit-match-parent;
+    
+  }
+  .white-img-four{
+    left: -60px;
+    z-index: 3;
+    transform: scale(1);
+    position: relative;
+    margin-left: 5px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }
+  .white-img-five{
+    left: -80px;
+    z-index: 2;
+    transform: scale(1);
+    position: relative;
+    margin-left: 5px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+  }
+
+
+  
   .circle {
-    background-color: #00b074;
+    background-color:#04c9d7;
     height: 79px;
     width: 79px;
     border-radius: 500px;
-    /* margin-left: -1.875rem; */
-    /* margin-top: -1.875rem; */
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     right: 250px;
     bottom: 167px;
+  }
+  .circle i{
+    /* background-color: #fff; */
+     font-size: 40px;
+     color:white;
   }
 
 
@@ -350,29 +458,39 @@
   .heading {
     padding: 80px 0px 0px 0px;
     margin-bottom: 7%;
-    font-weight: 1800;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    line-height: 1.375;
+    letter-spacing: -.4px;
+    color: var(--color-headings);
+    font-family: sans-serif;
   }
 
   .middle-text {
-    margin-bottom: 10%;
+    margin-bottom: 2.1875rem;
+    font-size: 1.125rem;
+    line-height: 1.66;
+    letter-spacing: -.09px;
+    color: #6b6e6f;
+    font-family: Inter,sans-serif;
+    font-weight: 400;
   }
 
   .last-text {
     line-height: 2rem;
+    /* display: flex; */
+    font-family: Inter,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: var(--color-headings);
     /* background-color: red; */
   }
-
-  .white-box-text {
-    width: 210.594px;
-    height: 97px;
-    background-color: aqua;
-    padding: 25px 70px 45px 30px;
-  }
+  
 
   .fifth-section {
     background-color: #2B3940;
     height: 1293px;
-    /* padding: 15; */
   }
 
   .fifth-container {
@@ -404,6 +522,10 @@
 
   .google {
     font-size: 13px;
+    margin-bottom: 0;
+    display: block;
+    font-family: Inter,sans-serif;
+    text-align: left;
     color: #6b6e6f;
     line-height: 2;
     margin-bottom: 2%;
@@ -543,10 +665,15 @@
     font-family: Inter, sans-serif;
     font-weight: 400;
     color: #6b6e6f;
+    font-size: 1rem;
+    line-height: 1.625;
+    letter-spacing: -.08px;
+    margin-bottom: 1.25rem;
+}
 
 
     /* background-color: red; */
-  }
+  
 
   .featured-job-text {
     color: white;
